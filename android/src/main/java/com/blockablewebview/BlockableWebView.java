@@ -14,12 +14,12 @@ import java.util.List;
  * Created by seemann on 01/11/16.
  */
 public class BlockableWebView implements ReactPackage {
-    @Override
+    // @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
 
-    // @Override
+    @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
         return Arrays.<ViewManager>asList(
                 new BlockableWebViewManager()
