@@ -19,7 +19,7 @@ public class BlockableWebView implements ReactPackage {
         return Collections.emptyList();
     }
 
-    @Override
+    // @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
         return Arrays.<ViewManager>asList(
                 new BlockableWebViewManager()
